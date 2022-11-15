@@ -86,6 +86,13 @@ body{
     box-shadow: 5px 5px #10132d7c;
 }
 
+.numeros{
+    display: flex;
+    padding-top: 1rem;
+    gap: 2em;
+    padding-left: 14vw;
+}
+
 .velho{
     display: flex;
     align-items: center;
@@ -95,6 +102,7 @@ body{
     font-size: 1rem;
     font-family: "Montserrat";
     color: white;
+
 }
 
 .seguidos{
@@ -102,8 +110,24 @@ body{
     flex-direction: column;
     align-items: center;
     font-family: "Montserrat";
-    padding-top: 6em;
-    padding-right: 45em;
+    font-size: 0.6rem;
+    color: white;
+}
+
+.seguidores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat";
+    font-size: 0.6rem;
+    color: white;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat";
     font-size: 0.6rem;
     color: white;
 }

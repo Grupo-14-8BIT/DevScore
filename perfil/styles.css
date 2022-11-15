@@ -20,9 +20,9 @@ body{
     justify-content:center;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
     background-color: rgba(128, 128, 128, 0.411);
     width: 100%;
+    margin-bottom:10px;
 }
 
 .conteudo-texto{
@@ -88,21 +88,14 @@ body{
 
 .numeros{
     display: flex;
-    padding-top: 1rem;
     gap: 2em;
-    padding-left: 14vw;
 }
 
-.velho{
-    display: flex;
+.velhodaavan{
+    display: inline;
     align-items: center;
-    justify-content: center;
-    padding-top: 6em;
-    padding-right: 45em;
-    font-size: 1rem;
     font-family: "Montserrat";
     color: white;
-
 }
 
 .seguidos{
@@ -130,4 +123,20 @@ body{
     font-family: "Montserrat";
     font-size: 0.6rem;
     color: white;
+}
+
+.imagen-tamanho{
+    width: 10%;
+}
+
+.conteudo-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-centralizado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

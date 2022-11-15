@@ -133,6 +133,7 @@ input::placeholder{
   margin-top: 50px;
   
 }
+
 a{
   color: white;
 background-color: rgb(11, 134, 21);
@@ -144,3 +145,4 @@ font-size: 45px;
 display: flex;
 color: rgb(11, 134, 21);
 }
+

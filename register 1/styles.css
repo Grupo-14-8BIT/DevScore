@@ -17,7 +17,6 @@ input::placeholder{
 }
 
 .logo{
-  border: 3px solid red;
   display: flex;
   margin-top: 100px;
   align-items: center;
@@ -32,7 +31,6 @@ input::placeholder{
 .alinhamento_img{
   position: relative;
   float: left;
-  border: 3px solid red;
   width: 70%;
   display: flex;
   justify-content: flex-end;
@@ -41,7 +39,6 @@ input::placeholder{
 .alinhamento_btn{
   position: relative;
   float: left;
-  border: 3px solid white;
   display: flex;
   width: 30%;
   justify-content: flex-end;
@@ -75,13 +72,12 @@ input::placeholder{
 }
 .alinhar{
   display: flex;
-  border: 5px solid white;
   justify-content: center;
 }
 .teladefundo{
-  background-color: rgb(44, 12, 96);
+  background-color: rgba(44, 21, 82, 0.408);
+  border: 2px solid rgb(54, 33, 89);
   box-shadow: 3px 3px 6px black;
-  border: 3px solid red;
   height: 350px;
   width: 700px;
   margin-top: 50px;
@@ -111,7 +107,6 @@ input::placeholder{
   display: flex;
   position: relative; 
   width: 270px;
-  border: 3px solid red;
   flex-direction: column;
   
 
@@ -121,14 +116,13 @@ input::placeholder{
   display: flex;
   position: relative; 
   float: left;
-  border: 3px solid red;
   width: 270px;
   flex-direction: column;
 
 }
 
 .avancar{
-  border: 2px solid green;
+
   justify-content: center;
   display: flex;
   margin-top: 50px;

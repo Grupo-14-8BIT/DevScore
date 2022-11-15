@@ -17,7 +17,6 @@ input::placeholder{
 }
 
 .logo{
-  border: 3px solid red;
   display: flex;
   margin-top: 100px;
   align-items: center;
@@ -32,7 +31,6 @@ input::placeholder{
 .alinhamento_img{
   position: relative;
   float: left;
-  border: 3px solid red;
   width: 70%;
   display: flex;
   justify-content: flex-end;
@@ -41,7 +39,6 @@ input::placeholder{
 .alinhamento_btn{
   position: relative;
   float: left;
-  border: 3px solid white;
   display: flex;
   width: 30%;
   justify-content: flex-end;
@@ -70,17 +67,17 @@ input::placeholder{
 .btns1{
   margin-left: 125px;
   margin-top: 15px;
+  font-size: 15px;
   
 }
 .alinhar{
   display: flex;
-  border: 5px solid white;
   justify-content: center;
 }
 .teladefundo{
-  background-color: rgb(44, 12, 96);
+  background-color: rgba(44, 21, 82, 0.408);
+  border: 2px solid rgb(54, 33, 89);
   box-shadow: 3px 3px 6px black;
-  border: 3px solid red;
   height: 350px;
   width: 700px;
   margin-top: 50px;
@@ -110,7 +107,6 @@ input::placeholder{
   display: flex;
   position: relative; 
   width: 270px;
-  border: 3px solid red;
   flex-direction: column;
   
 
@@ -120,27 +116,32 @@ input::placeholder{
   display: flex;
   position: relative; 
   float: left;
-  border: 3px solid red;
   width: 270px;
   flex-direction: column;
-  
-  
+
 }
+
 .avancar{
-  border: 2px solid green;
+
   justify-content: center;
   display: flex;
   margin-top: 50px;
   
 }
+
 a{
-  color: white;
+color: rgb(11, 134, 21);;
 background-color: rgb(11, 134, 21);
 justify-content: center;
 width: 550px;
 height: 70px;
-font-family: 'Fredoka One', cursive;
-font-size: 45px;
 display: flex;
-color: rgb(11, 134, 21);
+
 }
+
+button{
+  font-family: 'Fredoka One', cursive;
+  font-size: 45px;
+  background-color: rgb(11, 134, 21);
+}
+

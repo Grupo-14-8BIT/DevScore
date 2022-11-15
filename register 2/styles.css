@@ -60,4 +60,23 @@ flex-direction: row-reverse;
 justify-content: center;
 
 
+
 }
+.escreva_sobre_voce{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 3px solid white;
+
+
+
+
+}
+.divBio{
+justify-content: center;
+display: flex;
+align-items: center;
+margin-top: px;
+
+}
+

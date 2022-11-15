@@ -6,6 +6,11 @@
 margin: 0%;
 padding: 0%;
 }
+input::placeholder{
+  background-color: gray;
+  color: black;
+ 
+}
 
 body {
     background-image: url("../background.png");
@@ -54,4 +59,24 @@ border: 2px solid red;
 flex-direction: row-reverse;
 justify-content: center;
 
+
+
 }
+.escreva_sobre_voce{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 3px solid white;
+
+
+
+
+}
+.divBio{
+justify-content: center;
+display: flex;
+align-items: center;
+margin-top: px;
+
+}
+

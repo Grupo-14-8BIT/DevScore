@@ -15,6 +15,7 @@ body{
     width: 100%;
 }
 
+
 .conteudo{
     display: flex;
     justify-content:center;
@@ -171,3 +172,13 @@ body{
     width: 10%;
 }
 
+.caixa{
+    -webkit-appearance: none;
+	background-color: #00ca1b;
+	border: 1px solid #0ba100;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 20px 20px 20px 20px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}

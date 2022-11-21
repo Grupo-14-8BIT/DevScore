@@ -408,3 +408,7 @@ body {
 .search-box:hover>.search-btn {
     background: white;
 }
+
+a{
+    text-decoration: none;
+}

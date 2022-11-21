@@ -129,6 +129,7 @@ body {
 .imagen-tamanho {
     width: 15em;
     display: flex;
+    filter: drop-shadow(1px 1px 10px green); 
 }
 
 .icones {
@@ -189,7 +190,7 @@ body {
     border-radius: 20px;
     height: 0;
     line-height: 0;
-    color: #99C624;
+    color:  rgb(2, 140, 0);
     font-family: Verdana;
     width: 86px;
     font-size: 10px;

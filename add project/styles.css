@@ -50,7 +50,7 @@ body {
     background-image: url(../background.png);
     width: 100%;
     height: 100%;
-    
+  font-family: "Montserrat";
 }
 
 .conteudo {
@@ -215,13 +215,11 @@ body {
 .homepage{
   color: aliceblue;
   font-size: 2vw;
-  font-family: 'Orbitron', sans-serif;
 }
 
 .profile{
   color: aliceblue;
   font-size:2vw;
-  font-family: 'Orbitron', sans-serif;
 }
 
 .search-icon{
@@ -389,4 +387,8 @@ body {
   border-radius: 25px;
   font-size: 2vw;
   font-family: 'Kanit', sans-serif;
+}
+
+a{
+  text-decoration: none;
 }

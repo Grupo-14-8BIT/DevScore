@@ -5,7 +5,11 @@ html {
 }
 
 * {
+    font-family: "Montserrat";
     margin: 0px;
+    margin: 0px;
+    padding: 0px;
+    color: azure;
     padding: 0px;
 }
 
@@ -129,7 +133,7 @@ body {
 .imagen-tamanho {
     width: 15em;
     display: flex;
-    filter: drop-shadow(1px 1px 10px green); 
+    filter: drop-shadow(1px 1px 10px green);
 }
 
 .icones {
@@ -190,7 +194,7 @@ body {
     border-radius: 20px;
     height: 0;
     line-height: 0;
-    color:  rgb(2, 140, 0);
+    color: rgb(2, 140, 0);
     font-family: Verdana;
     width: 86px;
     font-size: 10px;
@@ -280,7 +284,7 @@ body {
     font-size: 15px;
     font-weight: 700;
     padding: 10px 50px;
-    background-color: #FFFFFF;
+    background-color: #0E132C;
     border: groove #FFFFFF 0;
     text-decoration: none;
     display: inline-block;
@@ -300,7 +304,7 @@ body {
     font-size: 15px;
     font-weight: 700;
     padding: 10px 50px;
-    background-color: #FFFFFF;
+    background-color: #0E132C;
     border: groove #FFFFFF 0;
     text-decoration: none;
     display: inline-block;
@@ -322,6 +326,7 @@ body {
     justify-content: center;
     padding-top: 4%;
     gap: 3%;
+    margin-bottom: 80px;
 }
 
 .BackEnd-2 {
@@ -407,4 +412,44 @@ body {
 
 .search-box:hover>.search-btn {
     background: white;
+}
+
+.destaques {
+    margin-bottom: 8vw;
+}
+
+.carrosel {
+    width: 60%;
+    margin: auto;
+}
+
+.carrosel img {
+    margin-left: 20px;
+    max-height: 25vw;
+}
+
+.eventos {
+    margin-top: 300px;
+    width: 50%;
+    margin: auto;
+}
+
+.event img {
+    height: 10vw;
+    width: 10vw;
+    margin: auto;
+}
+
+.event {
+    border-radius: 8%;
+    border: 1px solid white;
+    margin-left: 1vw;
+    background-color: #0E132C;
+}
+
+.loading {
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vw;
 }

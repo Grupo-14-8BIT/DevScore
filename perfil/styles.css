@@ -33,6 +33,14 @@ body {
     font-size: 0.8em;
 }
 
+.homepage{
+    color: aliceblue;
+}
+
+.profile{
+    color: aliceblue;
+}
+
 .homepage:hover {
     color: #00aa00;
     text-shadow: 2px 2px black;

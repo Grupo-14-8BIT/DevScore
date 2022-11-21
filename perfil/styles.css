@@ -266,6 +266,44 @@ body {
     text-decoration: none;
 }
 
+
+.botao-adcperfil {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 0;
+    line-height: 0;
+    color:  rgb(2, 140, 0);
+    font-family: Verdana;
+    width: 150px;
+    font-size: 10px;
+    font-weight: 900;
+    padding: 21px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 1px 13px 0 #27FF00;
+    -moz-box-shadow: 0 1px 13px 0 #27FF00;
+    box-shadow: 0 1px 13px 0 #27FF00;
+    border: groove #99C624 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.botao-adcperfil:hover {
+    border: solid #ffffff 0px;
+    background: #ffffff;
+    color: #FFFFFF;
+    background-image: -webkit-linear-gradient(top, #87FF84, #00B117);
+    background-image: -moz-linear-gradient(top, #87FF84, #00B117);
+    background-image: -ms-linear-gradient(top, #87FF84, #00B117);
+    background-image: -o-linear-gradient(top, #87FF84, #00B117);
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    border-radius: 21px;
+    text-decoration: none;
+}
+
 .bio {
     display: flex;
     flex-direction: column;

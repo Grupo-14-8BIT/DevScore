@@ -128,7 +128,7 @@ body {
 .conteudo-terciario-centralizado {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 4%;
     gap: 3%;
 }
@@ -156,7 +156,7 @@ body {
     height: 4px;
     line-height: 4px;
     color: #FFFFFF;
-    width: 50px;
+    width: 70px;
     font-size: 10px;
     font-weight: 400;
     padding: 10px;
@@ -209,4 +209,36 @@ body {
     cursor: pointer;
     text-align: center;
     flex-wrap: wrap;
+}
+
+.plus{
+	display:flex;
+	align-items:flex-end;
+	justify-content:space-between;
+	margin-top:5px;
+	width:100%;
+}
+.plus2{
+	display:flex;
+	justify-content:flex-end;
+	margin-top:5px;
+	width:100%;
+}
+.img-plus{
+	width:30px;
+	height:30px;
+}
+.FrontEnd-2-center{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+}
+.plus3{
+	display:flex;
+	align-items:center;
+	justify-content:flex-end;
+}
+.img-plus2{
+	width:60px;
+	height:60px;
 }
